@@ -10,7 +10,7 @@ app.use(express.json()); // for parsing application/json
 app.use(express.urlencoded({ extended: true })); // for parsing application/x-www-form-urlencoded
 
 app.get('/', (req: Request, res: Response) => {
-  res.send('Express + TypeScript Server in TypeScript - dev container')
+  res.send('Express + TypeScript Server in dev container (TypeScript)')
 })
 
 app.post('/example', (req: Request, res: Response) => {
